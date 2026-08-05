@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260805-03-59e0745","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,0","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHO2EIdDP0,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YADy3sAhvXQ,0","Oleo Script":"YACgEQQ14jI,0","Playfair Display":"YAFdJhem5V8,1","Poppins":"YAE5fPSY9qM,0","Press Start 2P":"YAFyGr-8pmQ,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/7949ff62d67710d5.telemetry_sdk.js" integrity="sha512-KIvXA82Di44YY/RH9/63A9MuTuavYgDFG8PfErJn7Wli4K0LAOk+coo/aPXk3+ZNL96nHh9VYD4PE+fLes+laQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lalit Goyal — Portfolio</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Playfair+Display:wght@700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'DM Sans', sans-serif; scroll-behavior: smooth; }
+    .font-heading { font-family: 'Playfair Display', serif; letter-spacing: -0.02em; }
+    .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(16px); border: 1px solid rgba(37,99,235,0.12); box-shadow: 0 8px 32px rgba(37,99,235,0.06); }
+    .glass-light { background: rgba(37,99,235,0.06); border: 1px solid rgba(37,99,235,0.15); }
+    .accent-glow { box-shadow: 0 0 30px rgba(37,99,235,0.15), 0 12px 36px rgba(0,0,0,0.08); }
+    .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; }
+    .card-hover:hover { transform: translateY(-5px); border-color: rgba(37,99,235,0.3); box-shadow: 0 14px 38px rgba(37,99,235,0.12); }
+    .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+    .stagger-1 { transition-delay: 0.1s; }
+    .stagger-2 { transition-delay: 0.2s; }
+    @keyframes shimmer { 0%{background-position:-200% 0;} 100%{background-position:200% 0;} }
+    .shimmer-line { background: linear-gradient(90deg, transparent, rgba(37,99,235,0.5), transparent); background-size: 200% 100%; animation: shimmer 3s infinite; height: 2px; border-radius: 1px; }
+    .section-divider { height: 1px; background: linear-gradient(90deg, transparent, rgba(37,99,235,0.15), transparent); }
+  </style>
+  <script src="/_sdk/0e8d3a91e1c6f495.data_sdk.js" type="text/javascript" integrity="sha512-c00oDoGjsMgluCLLEyVl3suwEkgjOGGplVFbsilUoBg4aMKNmsL3mwsc9r0dPn95qiSZyjBousQXgROkAW7p/w=="></script>
+  <script src="/_sdk/04cc6185e046f597.resizing_sdk.js" type="text/javascript" integrity="sha512-CiE/G92aQF0nxneFg1kdOvXih8sQ1Z2a2QI3+r/WvzJwQqH6+IyB3iL07OkJmpm3ABAaf07+FnqWny98f5sR6w=="></script>
+ </head>
+ <body data-template-id="__page-root" class="w-full min-h-screen text-gray-800" style="background: linear-gradient(160deg, rgb(248, 250, 255), rgb(238, 244, 255), rgb(255, 255, 255));">
+  <!-- Nav -->
+  <nav class="fixed top-0 w-full z-50 glass border-b border-blue-100/50">
+   <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <span data-template-id="nav-name" class="canva-text font-heading text-lg" style="color: rgb(30, 64, 175); font-weight: 700; font-style: normal; font-size: 16px;">Lalit Goyal</span>
+    <div class="hidden md:flex gap-6 text-sm font-medium text-gray-500">
+     <a href="#about" class="hover:text-blue-600 transition">About</a> <a href="#experience" class="hover:text-blue-600 transition">Experience</a> <a href="#skills" class="hover:text-blue-600 transition">Skills</a> <a href="#certifications" class="hover:text-blue-600 transition">Certifications</a> <a href="#education" class="hover:text-blue-600 transition">Education</a> <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+    </div>
+   </div>
+  </nav><!-- Hero -->
+  <header class="relative w-full" style="min-height: calc(100 * min(var(--vh, 1vh), 1vh));">
+   <img data-template-id="hero-bg" class="canva-image absolute inset-0 w-full h-full object-cover" loading="lazy" src="https://images.pexels.com/photos/6985276/pexels-photo-6985276.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920" alt="A dynamic and colorful multicolor gradient background perfect for digital design.">
+   <div class="absolute inset-0 bg-gradient-to-b from-white/80 via-white/60 to-white/95"></div>
+   <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(37,99,235,0.08),transparent_50%)]"></div>
+   <div class="relative z-10 flex flex-col items-center justify-center text-center px-6" style="min-height: calc(100 * min(var(--vh, 1vh), 1vh));">
+    <p data-template-id="hero-subtitle" class="canva-text tracking-[0.3em] uppercase text-sm mb-4" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 20px;">MBA — Finance &amp; Business Analytics</p>
+    <h1 data-template-id="hero-title" class="canva-text font-heading mb-6" style="color: rgb(30, 41, 59); font-weight: 800; font-style: normal; font-size: 48px;">Lalit Goyal</h1>
+    <div class="shimmer-line w-24 mb-6"></div>
+    <p data-template-id="hero-tagline" class="canva-text max-w-2xl leading-relaxed" style="color: rgb(0, 0, 0); font-weight: 700; font-style: normal; font-size: 21px;">Driven finance professional with deep understanding of financial markets, investment strategies, and data analytics. Aspiring investment banker ready to deliver measurable results and enhance portfolio value through informed decision-making.</p><a href="#contact" class="mt-10 inline-flex items-center gap-2 px-8 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition shadow-lg shadow-blue-600/25"> <i data-lucide="send" style="width:16px;height:16px"></i> <span>Get In Touch</span> </a>
+   </div>
+  </header><!-- About -->
+  <section id="about" class="py-24 px-6">
+   <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center fade-in">
+    <img data-template-id="about-img" class="canva-image rounded-2xl w-full h-80 object-contain bg-slate-100 accent-glow" loading="lazy" src="canva://MAHRbPwoldo/1" alt="Professional portrait of Lalit Goyal in a navy suit seated in a modern office.">
+    <div>
+     <h2 data-template-id="about-heading" class="canva-text font-heading mb-5" style="color: rgb(30, 64, 175); font-weight: 700; font-style: normal; font-size: 24px;">About Me</h2>
+     <p data-template-id="about-text" class="canva-text leading-relaxed mb-6" style="color: rgb(71, 85, 105); font-weight: 400; font-style: normal; font-size: 16px;">Aspiring investment banker and finance consultant pursuing MBA at NIMS University, Jaipur. With a foundation in Commerce and Cost Management Accounting (CMA), I bring analytical rigour, quantitative skills, and a passion for portfolio management. Adept at financial analysis, risk management, and data-driven decision making. Committed to leveraging these skills to optimize portfolio performance and contribute to organizational growth.</p><a href="https://drive.google.com/file/d/1uo6vYtLJAl7kfimfbldyORjYPL8jN9hM/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 bg-blue-50 border border-blue-200 text-blue-600 font-semibold rounded-full hover:bg-blue-100 transition"> <i data-lucide="file-text" style="width:18px;height:18px"></i> <span data-template-id="cv-button" class="canva-text" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">Download My CV</span> </a>
+    </div>
+   </div>
+  </section>
+  <div class="section-divider max-w-4xl mx-auto"></div><!-- Experience -->
+  <section id="experience" class="py-24 px-6">
+   <div class="max-w-4xl mx-auto">
+    <h2 data-template-id="exp-heading" class="canva-text font-heading mb-14 text-center fade-in" style="color: rgb(30, 64, 175); font-weight: 700; font-style: normal; font-size: 24px;">Work Experience</h2>
+    <div class="space-y-8 fade-in stagger-1">
+     <div data-template-id="exp-2-card" class="canva-card glass card-hover rounded-2xl p-7" style="background: rgb(255, 255, 255);">
+      <h3 data-template-id="exp-2-title" class="canva-text font-semibold" style="color: rgb(30, 41, 59); font-weight: 600; font-style: normal; font-size: 19px;">Intern — Accounts &amp; Finance</h3>
+      <p data-template-id="exp-2-company" class="canva-text text-sm mt-1" style="color: rgb(37, 99, 235); font-weight: 400; font-style: normal; font-size: 16px;">B N P S Y &amp; Associates, CA Firm, Agra | 15th May – 30th June 2026</p>
+      <ul class="mt-4 space-y-2 text-sm">
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-2-b1" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Gained hands-on exposure to end-to-end bookkeeping and ledger maintenance.</span></li>
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-2-b2" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Applied core accounting principles in routine financial operations.</span></li>
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-2-b3" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Assisted in the preparation and finalization of financial statements.</span></li>
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-2-b4" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Worked hands-on with modern accounting software, demonstrating strong professional integrity.</span></li>
+      </ul>
+     </div>
+     <div data-template-id="exp-1-card" class="canva-card glass card-hover rounded-2xl p-7" style="background: rgb(255, 255, 255);">
+      <h3 data-template-id="exp-1-title" class="canva-text font-semibold" style="color: rgb(30, 41, 59); font-weight: 600; font-style: normal; font-size: 19px;">Finance Research Analyst (Intern)</h3>
+      <p data-template-id="exp-1-company" class="canva-text text-sm mt-1" style="color: rgb(37, 99, 235); font-weight: 400; font-style: normal; font-size: 16px;">Wintern Whiz | 14th June – 14th July 2026</p>
+      <ul class="mt-4 space-y-2 text-sm">
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-1-b1" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Completed a one-month internship as a Finance Research Analyst, recognized for dedication and exceptional contribution.</span></li>
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-1-b2" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Carried out research and analytical tasks in support of the finance team's projects and deliverables.</span></li>
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-1-b3" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Applied financial analysis skills in a professional, deadline-driven environment.</span></li>
+      </ul>
+     </div>
+     <div data-template-id="exp-3-card" class="canva-card glass card-hover rounded-2xl p-7" style="background: rgb(255, 255, 255);">
+      <h3 data-template-id="exp-3-title" class="canva-text font-semibold" style="color: rgb(30, 41, 59); font-weight: 600; font-style: normal; font-size: 19px;">Data Analytics Associate</h3>
+      <p data-template-id="exp-3-company" class="canva-text text-sm mt-1" style="color: rgb(37, 99, 235); font-weight: 400; font-style: normal; font-size: 16px;">A One Salasar Pvt Ltd | 5 July - Present</p>
+      <ul class="mt-4 space-y-2 text-sm">
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-3-b1" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Leveraged advanced Excel and Power BI to analyse large-scale business datasets, delivering actionable insights that informed strategic decisions.</span></li>
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-3-b2" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Built automated reporting dashboards that reduced manual reporting time by 40%, enabling real-time performance monitoring for stakeholders.</span></li>
+       <li class="flex gap-2"><i data-lucide="chevron-right" style="width:14px;height:14px;color:#2563eb;flex-shrink:0;margin-top:3px"></i><span data-template-id="exp-3-b3" class="canva-text" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Collaborated cross-functionally with operations and finance teams to identify trends, optimize processes, and support data-driven growth initiatives.</span></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </section>
+  <div class="section-divider max-w-4xl mx-auto"></div><!-- Skills -->
+  <section id="skills" class="py-24 px-6">
+   <div class="max-w-5xl mx-auto">
+    <h2 data-template-id="skills-heading" class="canva-text font-heading mb-3 text-center fade-in" style="color: rgb(30, 64, 175); font-weight: 700; font-style: normal; font-size: 24px;">Skills</h2>
+    <p data-template-id="skills-sub" class="canva-text text-center mb-12 fade-in" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Technical &amp; professional competencies</p>
+    <div class="flex flex-wrap justify-center gap-3 fade-in stagger-2">
+     <div data-template-id="skill-1" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(37, 99, 235); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Financial Analysis</div>
+     <div data-template-id="skill-2" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(37, 99, 235); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Investment Strategy</div>
+     <div data-template-id="skill-3" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(37, 99, 235); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Portfolio Construction</div>
+     <div data-template-id="skill-4" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(37, 99, 235); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Data Analytics</div>
+     <div data-template-id="skill-5" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(37, 99, 235); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Tally &amp; SAP FI-CO</div>
+     <div data-template-id="skill-6" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(37, 99, 235); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">MS Excel &amp; Power BI</div>
+     <div data-template-id="skill-7" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(239, 246, 255); color: rgb(30, 64, 175); font-weight: 400; font-style: normal; font-size: 16px;">Leadership</div>
+     <div data-template-id="skill-8" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(239, 246, 255); color: rgb(30, 64, 175); font-weight: 400; font-style: normal; font-size: 16px;">Communication</div>
+     <div data-template-id="skill-9" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(239, 246, 255); color: rgb(30, 64, 175); font-weight: 400; font-style: normal; font-size: 16px;">Problem Solving</div>
+     <div data-template-id="skill-10" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(239, 246, 255); color: rgb(30, 64, 175); font-weight: 400; font-style: normal; font-size: 16px;">Decision Making</div>
+     <div data-template-id="skill-11" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(239, 246, 255); color: rgb(30, 64, 175); font-weight: 400; font-style: normal; font-size: 16px;">Teamwork</div>
+     <div data-template-id="skill-12" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(239, 246, 255); color: rgb(30, 64, 175); font-weight: 400; font-style: normal; font-size: 16px;">Microsoft Office</div>
+     <div data-template-id="skill-13" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(37, 99, 235); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Ledger Posting</div>
+     <div data-template-id="skill-14" class="canva-tag card-hover rounded-full py-2 px-5 text-sm font-medium" style="background: rgb(239, 246, 255); color: rgb(30, 64, 175); font-weight: 400; font-style: normal; font-size: 16px;">Time Management</div>
+    </div>
+   </div>
+  </section>
+  <div class="section-divider max-w-4xl mx-auto"></div><!-- Certifications -->
+  <section id="certifications" class="py-24 px-6">
+   <div class="max-w-5xl mx-auto">
+    <h2 data-template-id="cert-heading" class="canva-text font-heading mb-3 text-center fade-in" style="color: rgb(30, 64, 175); font-weight: 700; font-style: normal; font-size: 24px;">Certifications</h2>
+    <p data-template-id="cert-sub" class="canva-text text-center mb-12 fade-in" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Professional development &amp; credentials</p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 fade-in stagger-2">
+     <div data-template-id="cert-1-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-1-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">Deloitte Data Analytics Job Simulation</span>
+      </div>
+      <p data-template-id="cert-1-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Forage · March 2026</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-2-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-2-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">EY Technology Risk Virtual Job Simulation</span>
+      </div>
+      <p data-template-id="cert-2-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Forage · March 2026</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-3-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-3-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">Data Science Methodology</span>
+      </div>
+      <p data-template-id="cert-3-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">IBM / CognitiveClass.ai · July 2026</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-4-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-4-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">SAP Finance &amp; Controlling (FI-CO)</span>
+      </div>
+      <p data-template-id="cert-4-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">SAP Learning Hub</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-5-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-5-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">Internship Completion Certificate — Wintern Whiz</span>
+      </div>
+      <p data-template-id="cert-5-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Wintern Whiz · July 2026</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-6-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-6-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">Power BI for Beginners</span>
+      </div>
+      <p data-template-id="cert-6-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">July 2026</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-7-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-7-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">Prompt Engineering for Everyone</span>
+      </div>
+      <p data-template-id="cert-7-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">IBM SkillsNetwork / CognitiveClass.ai · July 2026</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-8-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-8-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">Internship Completion Certificate — CA Firm</span>
+      </div>
+      <p data-template-id="cert-8-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">B N P S Y &amp; Associates · June 2026</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-9-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-9-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">Campus Ambassador Certificate</span>
+      </div>
+      <p data-template-id="cert-9-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">SmartED · August 2025</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-10-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-10-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">e-Filing Training (E-PAN, IT, GST, TDS, ESIC &amp; EPFO)</span>
+      </div>
+      <p data-template-id="cert-10-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Institute of Cost Accountants of India</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+     <div data-template-id="cert-11-card" class="canva-card glass card-hover rounded-xl p-5" style="background: rgb(255, 255, 255);">
+      <div class="flex items-start gap-3"><i data-lucide="badge-check" style="width:18px;height:18px;color:#2563eb;flex-shrink:0"></i><span data-template-id="cert-11-name" class="canva-text text-sm font-medium" style="color: rgb(30, 41, 59); font-weight: 500; font-style: normal; font-size: 16px;">Microsoft Office Intermediate Program</span>
+      </div>
+      <p data-template-id="cert-11-org" class="canva-text text-xs mt-2 ml-7" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Microsoft Imagine Academy</p><span data-template-id="cert-view-button" class="canva-text inline-flex items-center gap-1 mt-4 ml-7 px-3 py-1.5 rounded-full border border-blue-300 text-blue-600 text-xs font-semibold" style="color: rgb(37, 99, 235); font-weight: 600; font-style: normal; font-size: 16px;">View Certificate</span>
+     </div>
+    </div>
+   </div>
+  </section>
+  <div class="section-divider max-w-4xl mx-auto"></div><!-- Education -->
+  <section id="education" class="py-24 px-6">
+   <div class="max-w-4xl mx-auto">
+    <h2 data-template-id="edu-heading" class="canva-text font-heading mb-14 text-center fade-in" style="color: rgb(30, 64, 175); font-weight: 700; font-style: normal; font-size: 24px;">Education</h2>
+    <div class="space-y-5 fade-in stagger-1">
+     <div data-template-id="edu-1" class="canva-card glass card-hover rounded-xl p-6" style="background: rgb(255, 255, 255);">
+      <h3 data-template-id="edu-1-title" class="canva-text font-semibold" style="color: rgb(30, 41, 59); font-weight: 600; font-style: normal; font-size: 19px;">MBA — Finance &amp; Business Analytics (2027)</h3>
+      <p data-template-id="edu-1-detail" class="canva-text text-sm mt-1" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">NIMS University, Jaipur</p>
+     </div>
+     <div data-template-id="edu-2" class="canva-card glass card-hover rounded-xl p-6" style="background: rgb(255, 255, 255);">
+      <h3 data-template-id="edu-2-title" class="canva-text font-semibold" style="color: rgb(30, 41, 59); font-weight: 600; font-style: normal; font-size: 19px;">Bachelor's Degree (2024)</h3>
+      <p data-template-id="edu-2-detail" class="canva-text text-sm mt-1" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">DBRAU · Percentage: 72.8%</p>
+     </div>
+     <div data-template-id="edu-3" class="canva-card glass card-hover rounded-xl p-6" style="background: rgb(255, 255, 255);">
+      <h3 data-template-id="edu-3-title" class="canva-text font-semibold" style="color: rgb(30, 41, 59); font-weight: 600; font-style: normal; font-size: 19px;">CMA Foundation (2022)</h3>
+      <p data-template-id="edu-3-detail" class="canva-text text-sm mt-1" style="color: rgb(100, 116, 139); font-weight: 400; font-style: normal; font-size: 16px;">Institute of Cost Accountants of India · Foundation Completed; Pursuing Intermediate</p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <div class="section-divider max-w-4xl mx-auto"></div><!-- Contact -->
+  <section id="contact" class="py-24 px-6">
+   <div class="max-w-3xl mx-auto text-center fade-in">
+    <h2 data-template-id="contact-heading" class="canva-text font-heading mb-10" style="color: rgb(30, 64, 175); font-weight: 700; font-style: normal; font-size: 24px;">Get In Touch</h2>
+    <div class="flex flex-col md:flex-row justify-center gap-8 items-center">
+     <div class="flex items-center gap-2"><i data-lucide="mail" style="width:18px;height:18px;color:#2563eb"></i><span data-template-id="contact-email" class="canva-text" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">lalitgoyal1210@gmail.com</span>
+     </div>
+     <div class="flex items-center gap-2"><i data-lucide="phone" style="width:18px;height:18px;color:#2563eb"></i><span data-template-id="contact-phone" class="canva-text" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">+91 7505719059</span>
+     </div>
+     <div class="flex items-center gap-2"><i data-lucide="map-pin" style="width:18px;height:18px;color:#2563eb"></i><span data-template-id="contact-location" class="canva-text" style="color: rgb(51, 65, 85); font-weight: 400; font-style: normal; font-size: 16px;">Agra, Uttar Pradesh</span>
+     </div>
+    </div><a href="https://www.linkedin.com/in/lalit-goyal1210" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-10 px-8 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition shadow-lg shadow-blue-600/25"> <i data-lucide="linkedin" style="width:18px;height:18px"></i> <span>Connect on LinkedIn</span> </a>
+   </div>
+  </section>
+  <footer class="py-8 text-center border-t border-gray-200">
+   <p data-template-id="footer-text" class="canva-text" style="color: rgb(148, 163, 184); font-weight: 400; font-style: normal; font-size: 16px;">© 2026 Lalit Goyal. All rights reserved.</p>
+  </footer>
+  <script src="/_sdk/b67df6528afa6d57.editing_sdk.js" integrity="sha512-ObK/O8PVNdvePOE833JpZI0oKCuD4dnU+D+5PMwY4U3o0z4/Q4l01EB77zMvgnmBiBHpDMCJTfVYFVrzp7r1lw=="></script>
+  <script>
+    lucide.createIcons();
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    const certificateLinks = [
+      'https://drive.google.com/file/d/1YDh6M8ATrmPrKC4JBLtpmCk0_TDGQOpe/view?usp=drive_link',
+      'https://drive.google.com/file/d/1T7Q-omLrGnyAeKUf_XE2IoV4KqxZsrj2/view?usp=drive_link',
+      'https://drive.google.com/file/d/1KufmA0fPynmiBr-Xf1JclyJiWgTFZWpA/view?usp=drive_link',
+      'https://drive.google.com/file/d/1IVVjtiGDInVuDnUlepwPmAP7JkzPanTv/view?usp=drive_link',
+      'https://drive.google.com/file/d/1k8dVNLtbj8wFsAp4Iy8bkKHQt5v15sGY/view?usp=drive_link',
+      'https://drive.google.com/file/d/1cMk_enqafBOdQNKkmEuqH6y9H_LpjLp8/view?usp=drive_link',
+      'https://drive.google.com/file/d/1HXkwnugGwxUjJtFejCh67QieBQrJHdnl/view?usp=drive_link',
+      'https://drive.google.com/file/d/1hOD0fpkOCP-8M09DSkIyUqRYhtHrzoDf/view?usp=drive_link',
+      'https://drive.google.com/file/d/1s2bOmL3BSGPrGy_22FRN-f0pTwwoOL0i/view?usp=drive_link',
+      'https://drive.google.com/file/d/1C0pn29UJVg0q3__LkVI6ZDGZsCCzl1w0/view?usp=drive_link',
+      'https://drive.google.com/file/d/10ErnqVFul0m2EB-zVmN3AUA6UK9IQpIY/view?usp=drive_link',
+    ];
+    document.querySelectorAll('[data-template-id^="cert-"][data-template-id$="-card"]').forEach((card, index) => {
+      const link = certificateLinks[index];
+      if (!link) return;
+      card.setAttribute('role', 'link');
+      card.setAttribute('tabindex', '0');
+      card.classList.add('cursor-pointer');
+      const open = () => window.open(link, '_blank', 'noopener,noreferrer');
+      card.addEventListener('click', open);
+      card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+    });
+  </script>
+ 
+</body></html>
